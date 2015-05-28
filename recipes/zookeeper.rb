@@ -6,8 +6,8 @@ end
 
 directory "/usr/java"
 
-link "/usr/java/default" do
-  to "/usr/lib/jvm/jre/"
+link "/usr/lib/jvm/jre/" do
+  to "/usr/java/default"
   only_if 'test -d /usr/lib/jvm/jre'
 end
 
