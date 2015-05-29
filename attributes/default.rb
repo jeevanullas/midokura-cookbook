@@ -7,7 +7,7 @@ default['cassandra']['cluster_name'] = 'midonet'
 # default['cassandra']['release'] = '1'
 #default['cassandra']['metrics_reporter'] = {'config' => {}}
 default['midokura']['yum-options'] = '--nogpgcheck'
-default['midokura']['repo-url']= 'http://repo.midonet.org/midonet/current/RHEL/6/stable/'
+default['midokura']['repo-url']= 'http://repo.midonet.org/midonet/v2015.01/RHEL/6/stable/'
 default['midokura']['misc-repo-url']= 'http://repo.midonet.org/misc/RHEL/6/misc/'
 default['midokura']['midonet-api-url'] = 'http://127.0.0.1:8080/midonet-api'
 default['midokura']['gpgcheck'] = false
