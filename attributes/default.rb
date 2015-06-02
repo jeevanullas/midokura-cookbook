@@ -1,5 +1,3 @@
-default['midokura']['repo-username'] = ''
-default['midokura']['repo-password'] = ''
 default['cassandra']['repo-url'] = 'http://rpm.datastax.com/community'
 default['cassandra']['package'] = 'dsc20'
 default['cassandra']['cluster_name'] = 'midonet'
